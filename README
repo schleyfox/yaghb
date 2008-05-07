@@ -1,0 +1,20 @@
+Damn simple github badge script.
+
+So github badge bling is kind of the thing to have these days.
+Dr. Nic makes an amazing JS badge that is basically awesome.
+Unfortunately it hates konqueror, IE6, and my typo blog layout.
+To remedy this, I made my own simple github api massager.
+The result is yet-another-github-badge, which is a php script that creates
+javascript that will bling out a list of your projects.
+
+To use it put the following into the sidebar part of your blag.
+
+  <ul id="yaghb"></ul>
+  <script src="http://ben.pixelmachine.org/yaghb.php?username=USERNAME" />
+
+If you want, you can take yaghb and drop it on your own server and modify how
+it outputs the list.
+
+You can see this in action at http://ben.pixelmachine.org under the Projects
+heading
+
